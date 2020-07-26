@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HStackOfSlider: View {
     var sliderColor: Color
-    let formatter = NumberFormatter()
+    private let formatter = NumberFormatter()
     @Binding var sliderValue: Double
     
     

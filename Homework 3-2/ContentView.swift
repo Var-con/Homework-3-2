@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var redSliderValue: Double = 150.0
-    @State var greenSliderValue: Double = 150.0
-    @State var blueSliderValue: Double = 150.0
+    @State private var redSliderValue: Double = 150.0
+    @State private var greenSliderValue: Double = 150.0
+    @State private var blueSliderValue: Double = 150.0
     
     var body: some View {
         ZStack {
